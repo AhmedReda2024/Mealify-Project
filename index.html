@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mealify</title>
+
+    <!--* ========== GOOGLE FONTS ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!--* ========== GOOGLE FONTS ========== -->
+
+    <!--* ========== FONTAWESOME ========== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--* ========== FONTAWESOME ========== -->
+
+    <!--* ========== MAIN CSS ========== -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--* ========== MAIN CSS ========== -->
+
+    <!--* ========== DARK-MOOD CSS ========== -->
+    <link rel="stylesheet" href="./css/dark-mode.css" />
+    <!--* ========== DARK-MOOD CSS ========== -->
+
+    <!--* ========== MEDIA QUERY CSS ========== -->
+    <link rel="stylesheet" href="./css/media.css" />
+    <!--* ========== MEDIA QUERY CSS ========== -->
+  </head>
+  <body>
+    <!--* ========== Start NAV-BAR ========== -->
+    <div class="nav" id="nav">
+      <div class="container">
+        <h1 class="logo heading"><a href="#home">Mealify</a></h1>
+        <ul class="nav-links" id="nav-links">
+          <li class="close-icon">
+            <a href="./index.html"> <i class="fas fa-close"></i> </a>
+          </li>
+          <li><a class="home-link" href="#home">home</a></li>
+          <li><a class="chefs-link" href="#chefs">chefs</a></li>
+          <li><a class="gallery-link" href="#gallery">gallery</a></li>
+          <li><a class="contact-link" href="#contact">contact</a></li>
+        </ul>
+        <div class="mood">
+          <label for="mood"> <i class="fa-regular fa-sun light"></i> </label>
+          <label for="mood"> <i class="fa-solid fa-moon dark"></i> </label>
+          <input id="mood" type="checkbox" hidden aria-hidden />
+          <a href="#nav-links" class="menu-icon">
+            <i class="fas fa-bars"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!--* ========== Start NAV-BAR ========== -->
+
+    <!--* ========== Start Home SECTION ========== -->
+    <div class="home light-grey-bg" id="home">
+      <div class="container">
+        <div class="home-content">
+          <h2>
+            Enjoy Your Healthy <br />
+            Delicious Food
+          </h2>
+          <p>
+            Sed autem laudantium dolores. Voluptatem itaque ea consequatur
+            eveniet. Eum quas beatae cumque eum quaerat.
+          </p>
+
+          <div class="buttons-group">
+            <a class="btn main-btn" href="#"> book a table </a>
+
+            <a class="video-btn" href="#">
+              <div class="home-icon">
+                <i class="fas fa-play"></i>
+              </div>
+              watch a video
+            </a>
+          </div>
+        </div>
+        <div class="home-img">
+          <img src="./images/hero-img.png" alt="home-bg" />
+        </div>
+      </div>
+    </div>
+    <!--* ========== End Home SECTION ========== -->
+
+    <!--* ========== Start Chefs SECTION ========== -->
+    <div class="chefs padding-section" id="chefs">
+      <div class="chefs-title text-center main-title">
+        <h2>chefs</h2>
+        <h4>our <span class="color-heading">professional</span> chefs</h4>
+      </div>
+      <div class="container">
+        <div class="chefs-box">
+          <div class="chef-item">
+            <div class="chef-img">
+              <img src="./images/chef-1.png" alt="chef-img" />
+              <div class="chef-layer">
+                <a href="https://twitter.com" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://facbook.com" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="chef-text">
+              <h3>walter white</h3>
+              <span>master chef</span>
+              <p>
+                Velit aut quia fugit et et. Dolorum ea voluptate vel tempore
+                tenetur ipsa quae aut. Ipsum exercitationem iure minima enim
+                corporis et voluptate.
+              </p>
+            </div>
+          </div>
+          <div class="chef-item">
+            <div class="chef-img">
+              <img src="./images/chef-2.png" alt="chef-img" />
+              <div class="chef-layer">
+                <a href="https://twitter.com" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://facbook.com" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="chef-text">
+              <h3>sarah jhonson</h3>
+              <span>patissier</span>
+              <p>
+                Velit aut quia fugit et et. Dolorum ea voluptate vel tempore
+                tenetur ipsa quae aut. Ipsum exercitationem iure minima enim
+                corporis et voluptate.
+              </p>
+            </div>
+          </div>
+          <div class="chef-item">
+            <div class="chef-img">
+              <img src="./images/chef-3.png" alt="chef-img" />
+              <div class="chef-layer">
+                <a href="https://twitter.com" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://facbook.com" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="chef-text">
+              <h3>william anderson</h3>
+              <span>cook</span>
+              <p>
+                Velit aut quia fugit et et. Dolorum ea voluptate vel tempore
+                tenetur ipsa quae aut. Ipsum exercitationem iure minima enim
+                corporis et voluptate.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--* ========== End Chefs SECTION ========== -->
+
+    <!--* ========== Start Gallery SECTION ========== -->
+    <div class="gallery light-grey-bg padding-section" id="gallery">
+      <div class="container">
+        <div class="chefs-title text-center main-title">
+          <h2>gallery</h2>
+          <h4>check <span class="color-heading">our gallery</span></h4>
+        </div>
+        <div class="gallery-box">
+          <div class="picture pizza">
+            <img src="./images/meal-1.jpg" alt="meal one" />
+            <div class="gallery-layer">
+              <h3>pizza</h3>
+              <p>Hawaiian pizza with ham and pineapple</p>
+            </div>
+          </div>
+          <div class="picture Levitation-pizza">
+            <img src="./images/meal-4.jpg" alt="meal four" />
+            <div class="gallery-layer">
+              <h3>Levitation pizza</h3>
+              <p>Levitation pizza on black background.</p>
+            </div>
+          </div>
+          <div class="picture beef">
+            <img src="./images/meal-2.jpg" alt="meal two" />
+            <div class="gallery-layer">
+              <h3>Beef steaks</h3>
+              <p>
+                Tasty beef steaks flying above cast iron grate with fire flames.
+              </p>
+            </div>
+          </div>
+          <div class="picture frittata">
+            <img src="./images/meal-7.jpg" alt="meal seven" />
+            <div class="gallery-layer">
+              <h3>Frittata</h3>
+              <p>Frittata or potato pie in a ceramic plate</p>
+            </div>
+          </div>
+          <div class="picture burger">
+            <img src="./images/meal-3.jpg" alt="meal five (chicken)" />
+            <div class="gallery-layer">
+              <h3>Burger</h3>
+              <p>grass fed bison hamburger with chips & beer</p>
+            </div>
+          </div>
+          <div class="picture fried">
+            <img src="./images/meal-5.jpg" alt="meal six (kofta)" />
+            <div class="gallery-layer">
+              <h3>Crispy Fried Chicken</h3>
+              <p>Frittata or potato pie in a ceramic plate</p>
+            </div>
+          </div>
+          <div class="picture kofta">
+            <img src="./images/meal-6.jpg" alt="meal seven (egyptian pizza)" />
+            <div class="gallery-layer">
+              <h3>Lyulya kebab</h3>
+              <p>
+                Tender and juicy skewers of ground lamb or beef, flavored with
+                aromatic spices and herbs
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--* ========== End Gallery SECTION ========== -->
+
+    <!--* ========== Start Contact SECTION ========== -->
+    <div class="contact padding-section" id="contact">
+      <div class="container">
+        <div class="chefs-title text-center main-title">
+          <h2>contact</h2>
+          <h4>Need Help ? <span class="color-heading">Contact Us</span></h4>
+        </div>
+
+        <div class="contact-box">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.3614691404086!2d-74.01100861584624!3d40.710058497635146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2seg!4v1686353168985!5m2!1sen!2seg"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+          <div class="contact-list">
+            <div class="list">
+              <div class="contact-icon">
+                <i class="far fa-map"></i>
+              </div>
+              <div class="list-content">
+                <h3>our address</h3>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+            </div>
+            <div class="list">
+              <div class="contact-icon">
+                <i class="far fa-envelope"></i>
+              </div>
+              <div class="list-content">
+                <h3>email us</h3>
+                <a
+                  href="mailto:ahmedreda4060@gmail?subject=contact us&route academy"
+                  >ahmedreda4060@gmail</a
+                >
+              </div>
+            </div>
+            <div class="list">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="list-content">
+                <h3>call us</h3>
+                <a href="tel:+02 01156107237">+02 01156107237</a>
+              </div>
+            </div>
+            <div class="list">
+              <div class="contact-icon">
+                <i class="fas fa-share-nodes"></i>
+              </div>
+              <div class="list-content">
+                <h3>opening hours</h3>
+                <p>
+                  <strong>mon-sat:</strong> 11AM - 23PM ,
+                  <strong>sunday:</strong> closed
+                </p>
+              </div>
+            </div>
+          </div>
+          <form>
+            <div class="input-group">
+              <input type="text" name="Name" placeholder="Your Name" />
+              <input type="email" name="Email" placeholder="Your Email" />
+            </div>
+            <input type="text" name="Subject" placeholder="Subject" />
+            <textarea name="Message" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn contact-btn">send message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <!--* ========== End Contact SECTION ========== -->
+
+    <!--* ========== Start Footer SECTION ========== -->
+    <div class="footer padding-section" id="footer">
+      <div class="container">
+        <div class="about">
+          <div class="about-title">
+            <img src="./images/favicon.png" alt="logo of Mealify" />
+            <h2 class="heading">Mealify</h2>
+          </div>
+          <p>
+            Mealify is a restaurant landing page that offers a delicious dining
+            experience to its customers.
+          </p>
+
+          <h3>Social Media</h3>
+          <ul>
+            <li>
+              <a href="https://twitter.com">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://facebook.com">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscribtion">
+          <h3>Subscribe our Newsletter</h3>
+          <p>
+            Don't miss out on our latest menu updates and exclusive offers -
+            join our newsletter today and stay up-to-date with all things
+            Mealify!
+          </p>
+          <div class="subscribtion-group">
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Your Email Adress"
+            />
+            <button class="btn" type="submit">
+              <i class="fas fa-envelope"></i>
+              Subscribe
+            </button>
+          </div>
+          <div class="quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li>
+                <a href="#">Menu</a>
+              </li>
+              <li>
+                <a href="#">Promo</a>
+              </li>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <a href="#">Testmonial</a>
+              </li>
+              <li>
+                <a href="#">Our Partners</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="contact-details">
+          <h3>Get in Touch</h3>
+          <ul>
+            <li>
+              <i class="fas fa-location-dot"></i>
+              <p>A108 Adam Street, New York, NY 535022</p>
+            </li>
+
+            <li>
+              <i class="fas fa-envelope"></i>
+              <a
+                href="mailto:ahmedreda4060@gmail?subject=contact us&route academy"
+                >ahmedreda4060@gmail</a
+              >
+            </li>
+            <li>
+              <i class="fas fa-phone"></i>
+              <a href="tel:+02 01156107237">+02 01156107237</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--* ========== End Footer SECTION ========== -->
+  </body>
+</html>

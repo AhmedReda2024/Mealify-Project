@@ -1,0 +1,160 @@
+/** ========== global ========== **/
+:root:has(.mood input:checked) .main-title h2 {
+  color: #fff;
+}
+:root:has(.mood input:checked) .main-title span {
+  color: #c17e1f;
+}
+:root:has(.mood input:checked) .heading::after{
+  color: #d78c23;
+}
+/** ========== global ========== **/
+
+/** ========== nav-bar ========== **/
+:root:has(.mood input:checked) .nav {
+  background-color: #000;
+}
+
+body:not(:has(:target)):has(.mood input:checked) .home-link,
+body:has(.home:target):has(.mood input:checked) .home-link,
+body:has(.chefs:target):has(.mood input:checked) .chefs-link,
+body:has(.gallery:target):has(.mood input:checked) .gallery-link,
+body:has(.contact:target):has(.mood input:checked) .contact-link {
+  color: #fff;
+}
+
+:root:has(.mood input:checked) .nav .container ul li a:hover {
+  color: #fff;
+}
+
+:root:has(.mood input:checked) .nav .container .logo {
+  color: #fff;
+}
+:root:has(.mood input:checked) .nav .mood .light {
+  display: block;
+  color: #fff;
+}
+:root:has(.mood input:checked) .nav .mood .dark {
+  display: none;
+}
+:root:has(.mood input:checked) .nav .container .logo {
+  color: #fff;
+}
+:root:has(.mood input:checked) .nav .container .logo::after {
+  color: #c17e1f;
+}
+
+:root:has(.mood input:checked) .nav .container ul li a::before {
+  background-color: #c17e1f;
+}
+
+/** ========== nav-bar ========== **/
+
+/** ========== home section ========== **/
+:root:has(.mood input:checked) .home {
+  background-color: #252525;
+}
+:root:has(.mood input:checked) .home .home-content h2 {
+  color: #fff;
+}
+:root:has(.mood input:checked) .home .home-content p {
+  color: #9f9f9f;
+}
+:root:has(.mood input:checked) .btn {
+  background-color: #c17e1f;
+}
+:root:has(.mood input:checked) .btn:hover {
+  background-color: #d78c23;
+}
+:root:has(.mood input:checked)
+  .home
+  .home-content
+  .buttons-group
+  .video-btn
+  .home-icon::before {
+  background-color: #000;
+}
+:root:has(.mood input:checked) .home .home-content .buttons-group .video-btn {
+  color: #fff;
+}
+:root:has(.mood input:checked)
+  .home
+  .home-content
+  .buttons-group
+  .video-btn
+  .home-icon {
+  background-image: linear-gradient(
+    to right,
+    #c17e1f 0% 50%,
+    transparent 50% 100%
+  );
+}
+:root:has(.mood input:checked)
+  .home
+  .home-content
+  .buttons-group
+  .video-btn:hover {
+  color: #d78c23;
+}
+
+/** ========== home section ========== **/
+
+/** ========== chefs section ========== **/
+
+:root:has(.mood input:checked) .chefs {
+  background-color: #1c1b1bf1;
+}
+:root:has(.mood input:checked) .chefs .chefs-box .chef-item .chef-text {
+  background-color: #1c1b1bc4;
+}
+:root:has(.mood input:checked) .chefs .chefs-box .chef-item .chef-text h3 {
+  color: #fff;
+}
+:root:has(.mood input:checked) .chefs .chefs-box .chef-item .chef-text span {
+  color: #9f9f9f;
+}
+:root:has(.mood input:checked) .chefs .chefs-box .chef-item .chef-text p {
+  color: #9f9f9f;
+}
+/** ========== chefs section ========== **/
+
+/** ========== gallery section ========== **/
+:root:has(.mood input:checked) .gallery {
+  background-color: #252525;
+}
+/** ========== gallery section ========== **/
+
+/** ========== gallery section ========== **/
+:root:has(.mood input:checked) .contact {
+  background-color: #1c1b1bf1;
+}
+:root:has(.mood input:checked) .contact .contact-box form {
+  background-color: #171717;
+}
+:root:has(.mood input:checked) .contact .contact-box .contact-list .list {
+  background-color: #0d0d0d;
+}
+:root:has(.mood input:checked) .contact .contact-box .list .contact-icon {
+  background-color: #d78c23;
+}
+:root:has(.mood input:checked) .contact .contact-box .list .contact-icon i {
+  color: #000;
+}
+:root:has(.mood input:checked)
+  .contact
+  .contact-box
+  .list
+  .list-content
+  h3
+  + * {
+  color: #fff;
+}
+
+/** ========== gallery section ========== **/
+
+/** ========== footer section ========== **/
+
+:root:has(.mood input:checked) .footer .contact-details ul i {
+  color: #d78c23;
+}
+/** ========== footer section ========== **/
